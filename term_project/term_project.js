@@ -776,7 +776,7 @@ function animate() {
 
   // 플레이어 이동
   if (player && playerBody) {
-    const speed = 8;
+    const speed = 10;
     const rotationSpeed = 1.2;
 
     const isForward = keysPressed["ArrowUp"];
@@ -901,4 +901,5 @@ window.addEventListener("keydown", (e) => {
 window.addEventListener("keyup", (e) => {
   keysPressed[e.key] = false;
 });
+
 
